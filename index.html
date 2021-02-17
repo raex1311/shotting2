@@ -4,12 +4,20 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity WebGL Player | Shooting2</title>
-    <script src="Build/3544178c924aac8c5129f2d974d60dd7.js"></script>
-    <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/4ff42d64f7c2160d48ad9040e8781ced.json");
-    </script>
   </head>
-  <body>
-    <div id="gameContainer" style="width: 960px; height: 600px; margin: auto"></div>
+  <body style="text-align: center">
+    <canvas id="unity-canvas" style="width: 960px; height: 600px; background: #231F20"></canvas>
+    <script src="Build/8095c7e21f396e1e70e92ad504cfa88f.js"></script>
+    <script>
+      createUnityInstance(document.querySelector("#unity-canvas"), {
+        dataUrl: "Build/1969b0c6d01eaf64fcd99dd46c055b1e.data.unityweb",
+        frameworkUrl: "Build/18cdba6ded069522ba89ab3355d67502.js.unityweb",
+        codeUrl: "Build/1bb95ac85356c461068836232bbe9020.wasm.unityweb",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "dfa",
+        productName: "Shooting2",
+        productVersion: "1.0",
+      });
+    </script>
   </body>
 </html>
