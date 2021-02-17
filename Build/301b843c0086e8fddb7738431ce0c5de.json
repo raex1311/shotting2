@@ -1,0 +1,16 @@
+{
+"companyName": "dfa",
+"productName": "Shooting2",
+"dataUrl": "91143d5075997c6a5c7ea9cb2c11f940.unityweb",
+"wasmCodeUrl": "94120d2a9ef5169bc0715ff17f566dea.unityweb",
+"wasmFrameworkUrl": "3fde67ad12386ebb454fde53e46f58ab.unityweb",
+"asmCodeUrl": "68bd1bd2859dd7c76392542f359a3dd7.unityweb",
+"asmMemoryUrl": "db334cbec36fe6ff994c87129d34c13a.unityweb",
+"asmFrameworkUrl": "62490192423488757db3d13eec25ec77.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"}
+}
